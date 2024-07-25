@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Pacifico-Regular;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+
+
+.home {
+
+    background-color: black;
+    height: 200%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 60%;
+    position: relative;
+    border: 1px solid white;
+    background-color: transparent;
+
+}
+
+h2 {
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    /* background-color: rgb(44, 117, 190); */
+
+
+    font-family: Pacifico-Regular;
+}
+:root{
+    --main-color:black;
+    --text-color:white;
+}
+
+h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+h2:nth-child(2) {
+    color: #FF4F9D;
+    -webkit-text-stroke: .5px #FF4F9D;
+    animation: animate 4s ease-in-out infinite;
+}
+
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 54%, 10% 45%, 16% 37%, 27% 29%, 38% 26%, 49% 28%, 60% 37%, 69% 48%, 75% 57%, 87% 65%, 97% 65%, 100% 64%, 100% 99%, 1% 99%);
+
+    }
+
+    50% {
+        clip-path: polygon(0% 53%, 5% 59%, 13% 66%, 27% 71%, 40% 71%, 54% 69%, 63% 66%, 71% 60%, 79% 56%, 88% 52%, 96% 50%, 100% 48%, 100% 99%, 0% 99%);
+
+    }
+
+}
+
+.btn {
+     box-shadow: 0 010px #FF4F9D, 0 0 20px #FF4F9D, 0 0 40px #FF4F9D;
+    transition: all .5s;
+    background-color: #FF4F9D;
+
+
+
+}
+
+.btn:hover {
+    background-color: #884CD2;
+    box-shadow: 0 010px  #884CD2, 0 0 20px #884CD2, 0 0 40px #884CD2;
+
+
+}
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #FF4F9D;
+    outline: none;
+
+}
+
+#form #siteUrl {}
+
+.input-box {
+    position: relative;
+}
+.input-box1{
+    position: relative;
+}
+
+.table{
+    background-color: transparent !important;
+    --bs-table-bg:var(--main-color);
+    --bs-table-color:var(--text-color);
+    border: 1px solid white !important;
+}

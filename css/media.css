@@ -1,0 +1,32 @@
+
+
+/* sm
+
+@media screen and (min-width:768px) 
+{
+.container{
+    width: 750px;
+    height: 100%;
+}
+}*/
+
+/*lg
+@media screen and (min-width:992px) 
+{
+.container{
+    width: 950px;
+}
+}*/
+/*xlg
+@media screen and (min-width:1200px) 
+{
+.container{
+    width: 1170px;
+}
+}
+
+
+*/
+
+
+/*header*/
